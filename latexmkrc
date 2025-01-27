@@ -1,0 +1,12 @@
+@default_files = ("thesis");
+$latex = 'platex -halt-on-error';
+$bibtex = 'pbibtex';
+$dvipdf = 'dvipdfmx %O -o %D %S';
+$makeindex = 'mendex %O -o %D %S';
+$pdf_mode = 3;
+$emulate_aux = 1;
+$aux_dir = "latex.out";
+# $preview_continuous_mode = 1;
+# $pvc_timeout = 1;
+# $pvc_timeout_mins = 30;
+# $sleep_time = 60;
